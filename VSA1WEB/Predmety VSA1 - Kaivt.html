@@ -1,0 +1,198 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<!-- saved from url=(0040)http://147.175.106.2/kaivt/Predmety/VSA1 -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<meta name="robots" content="index,nofollow">
+
+<title>Predmety/VSA1 - Kaivt</title>
+<script type="text/javascript" src="./Predmety VSA1 - Kaivt_files/common.js"></script>
+
+<script type="text/javascript">
+<!--// common functions
+
+// We keep here the state of the search box
+searchIsDisabled = false;
+
+function searchChange(e) {
+    // Update search buttons status according to search box content.
+    // Ignore empty or whitespace search term.
+    var value = e.value.replace(/\s+/, '');
+    if (value == '' || searchIsDisabled) { 
+        searchSetDisabled(true);
+    } else {
+        searchSetDisabled(false);
+    }
+}
+
+function searchSetDisabled(flag) {
+    // Enable or disable search
+    document.getElementById('fullsearch').disabled = flag;
+    document.getElementById('titlesearch').disabled = flag;
+}
+
+function searchFocus(e) {
+    // Update search input content on focus
+    if (e.value == 'Search') {
+        e.value = '';
+        e.className = '';
+        searchIsDisabled = false;
+    }
+}
+
+function searchBlur(e) {
+    // Update search input content on blur
+    if (e.value == '') {
+        e.value = 'Search';
+        e.className = 'disabled';
+        searchIsDisabled = true;
+    }
+}
+
+function actionsMenuInit(title) {
+    // Initialize action menu
+    for (i = 0; i < document.forms.length; i++) {
+        var form = document.forms[i];
+        if (form.className == 'actionsmenu') {
+            // Check if this form needs update
+            var div = form.getElementsByTagName('div')[0];
+            var label = div.getElementsByTagName('label')[0];
+            if (label) {
+                // This is the first time: remove label and do buton.
+                div.removeChild(label);
+                var dobutton = div.getElementsByTagName('input')[0];
+                div.removeChild(dobutton);
+                // and add menu title
+                var select = div.getElementsByTagName('select')[0];
+                var item = document.createElement('option');
+                item.appendChild(document.createTextNode(title));
+                item.value = 'show';
+                select.insertBefore(item, select.options[0]);
+                select.selectedIndex = 0;
+            }
+        }
+    }
+}
+//-->
+</script>
+
+
+<link rel="stylesheet" type="text/css" charset="utf-8" media="all" href="./Predmety VSA1 - Kaivt_files/common.css">
+<link rel="stylesheet" type="text/css" charset="utf-8" media="screen" href="./Predmety VSA1 - Kaivt_files/screen.css">
+<link rel="stylesheet" type="text/css" charset="utf-8" media="print" href="./Predmety VSA1 - Kaivt_files/print.css">
+<link rel="stylesheet" type="text/css" charset="utf-8" media="projection" href="./Predmety VSA1 - Kaivt_files/projection.css">
+
+<!-- css only for MSIE browsers -->
+<!--[if IE]>
+   <link rel="stylesheet" type="text/css" charset="utf-8" media="all" href="/wiki/kaivt/css/msie.css">
+<![endif]-->
+
+
+
+<link rel="Start" href="http://147.175.106.2/kaivt/UIM">
+<link rel="Alternate" title="Wiki Markup" href="http://147.175.106.2/kaivt/Predmety/VSA1?action=raw">
+<link rel="Alternate" media="print" title="Print View" href="http://147.175.106.2/kaivt/Predmety/VSA1?action=print">
+<link rel="Up" href="http://147.175.106.2/kaivt/Predmety">
+<link rel="Appendix" title="10a-Testing.pdf" href="http://147.175.106.2/kaivt/Predmety/VSA1?action=AttachFile&do=view&target=10a-Testing.pdf">
+<link rel="Appendix" title="10b-Testing.pdf" href="http://147.175.106.2/kaivt/Predmety/VSA1?action=AttachFile&do=view&target=10b-Testing.pdf">
+<link rel="Appendix" title="11a-SecurityEng.pdf" href="http://147.175.106.2/kaivt/Predmety/VSA1?action=AttachFile&do=view&target=11a-SecurityEng.pdf">
+<link rel="Appendix" title="1a-Intro.pdf" href="http://147.175.106.2/kaivt/Predmety/VSA1?action=AttachFile&do=view&target=1a-Intro.pdf">
+<link rel="Appendix" title="1b-SWandSystems.pdf" href="http://147.175.106.2/kaivt/Predmety/VSA1?action=AttachFile&do=view&target=1b-SWandSystems.pdf">
+<link rel="Appendix" title="1c-CriticalSystems.pdf" href="http://147.175.106.2/kaivt/Predmety/VSA1?action=AttachFile&do=view&target=1c-CriticalSystems.pdf">
+<link rel="Appendix" title="2a-SWprocess.pdf" href="http://147.175.106.2/kaivt/Predmety/VSA1?action=AttachFile&do=view&target=2a-SWprocess.pdf">
+<link rel="Appendix" title="2b-SWprocess.pdf" href="http://147.175.106.2/kaivt/Predmety/VSA1?action=AttachFile&do=view&target=2b-SWprocess.pdf">
+<link rel="Appendix" title="3a-ProjectMngt.pdf" href="http://147.175.106.2/kaivt/Predmety/VSA1?action=AttachFile&do=view&target=3a-ProjectMngt.pdf">
+<link rel="Appendix" title="3b-ChangeMngt.pdf" href="http://147.175.106.2/kaivt/Predmety/VSA1?action=AttachFile&do=view&target=3b-ChangeMngt.pdf">
+<link rel="Appendix" title="4a-Requirements.pdf" href="http://147.175.106.2/kaivt/Predmety/VSA1?action=AttachFile&do=view&target=4a-Requirements.pdf">
+<link rel="Appendix" title="4b-Requirements.pdf" href="http://147.175.106.2/kaivt/Predmety/VSA1?action=AttachFile&do=view&target=4b-Requirements.pdf">
+<link rel="Appendix" title="5a-Modelling.pdf" href="http://147.175.106.2/kaivt/Predmety/VSA1?action=AttachFile&do=view&target=5a-Modelling.pdf">
+<link rel="Appendix" title="5b-Modelling.pdf" href="http://147.175.106.2/kaivt/Predmety/VSA1?action=AttachFile&do=view&target=5b-Modelling.pdf">
+<link rel="Appendix" title="6a-ArchitecturalDesign.pdf" href="http://147.175.106.2/kaivt/Predmety/VSA1?action=AttachFile&do=view&target=6a-ArchitecturalDesign.pdf">
+<link rel="Appendix" title="6b-ArchitecturalDesign.pdf" href="http://147.175.106.2/kaivt/Predmety/VSA1?action=AttachFile&do=view&target=6b-ArchitecturalDesign.pdf">
+<link rel="Appendix" title="7a-OOD.pdf" href="http://147.175.106.2/kaivt/Predmety/VSA1?action=AttachFile&do=view&target=7a-OOD.pdf">
+<link rel="Appendix" title="7b-OOD.pdf" href="http://147.175.106.2/kaivt/Predmety/VSA1?action=AttachFile&do=view&target=7b-OOD.pdf">
+<link rel="Appendix" title="8a-RapidSWDev.pdf" href="http://147.175.106.2/kaivt/Predmety/VSA1?action=AttachFile&do=view&target=8a-RapidSWDev.pdf">
+<link rel="Appendix" title="8b-ExtremeProgramming.pdf" href="http://147.175.106.2/kaivt/Predmety/VSA1?action=AttachFile&do=view&target=8b-ExtremeProgramming.pdf">
+<link rel="Appendix" title="9a-Reuse.pdf" href="http://147.175.106.2/kaivt/Predmety/VSA1?action=AttachFile&do=view&target=9a-Reuse.pdf">
+<link rel="Appendix" title="9b-Reuse.pdf" href="http://147.175.106.2/kaivt/Predmety/VSA1?action=AttachFile&do=view&target=9b-Reuse.pdf">
+<link rel="Appendix" title="akceptacne_testy-priklad.pdf" href="http://147.175.106.2/kaivt/Predmety/VSA1?action=AttachFile&do=view&target=akceptacne_testy-priklad.pdf">
+<link rel="Appendix" title="pozvanka.pdf" href="http://147.175.106.2/kaivt/Predmety/VSA1?action=AttachFile&do=view&target=pozvanka.pdf">
+<link rel="Appendix" title="zadanie1.pdf" href="http://147.175.106.2/kaivt/Predmety/VSA1?action=AttachFile&do=view&target=zadanie1.pdf">
+<link rel="Appendix" title="zadanie2.pdf" href="http://147.175.106.2/kaivt/Predmety/VSA1?action=AttachFile&do=view&target=zadanie2.pdf">
+<link rel="Search" href="http://147.175.106.2/kaivt/FindPage">
+<link rel="Index" href="http://147.175.106.2/kaivt/TitleIndex">
+<link rel="Glossary" href="http://147.175.106.2/kaivt/WordIndex">
+<link rel="Help" href="http://147.175.106.2/kaivt/HelpOnFormatting">
+</head>
+
+<body lang="en" dir="ltr">
+<div id="container">
+
+<div id="header">
+<form id="searchform" method="get" action="">
+<div>
+<input type="hidden" name="action" value="fullsearch">
+<input type="hidden" name="context" value="180">
+<label for="searchinput" style="display: none;">Search:</label>
+<input style="width:155px;" id="searchinput" type="text" name="value" value="" size="20" onfocus="searchFocus(this)" onblur="searchBlur(this)" onkeyup="searchChange(this)" onchange="searchChange(this)" alt="Search" class="disabled">
+<br><input class="searchButton" id="titlesearch" name="titlesearch" type="submit" value="Titles" alt="Search Titles" disabled="">
+<input class="searchButton" id="fullsearch" name="fullsearch" type="submit" value="Text" alt="Search Full Text" disabled="">
+</div>
+</form>
+<script type="text/javascript">
+<!--// Initialize search form
+var f = document.getElementById('searchform');
+f.getElementsByTagName('label')[0].style.display = 'none';
+var e = document.getElementById('searchinput');
+searchChange(e);
+searchBlur(e);
+//-->
+</script>
+<!--img class="xmas" src="/wiki/kaivt/img/tree2a.png"/--><div id="logo"><a href="http://147.175.106.2/kaivt/UIM"><img src="./Predmety VSA1 - Kaivt_files/KAIVT.png" alt="Kaivt Logo">&nbsp;Ústav informatiky a matematiky FEI STU</a></div></div>				<div id="menu">				<ul>				<li class="active"><a class="active" href="http://147.175.106.2/kaivt/UIM">ÚIM</a></li>				<li><a href="http://147.175.106.2/kaivt/Aktuality">Aktuality</a></li>				<li><a href="http://147.175.106.2/kaivt/Studium">Štúdium</a></li>				<li><a href="http://147.175.106.2/kaivt/Vyskum">Veda a výskum</a></li>				<li><a href="http://147.175.106.2/kaivt/Kontakt">Pracovníci/Kontakt</a></li>				</ul>				</div>
+
+<div id="sidebar">
+<div id="languagebar" style="font-size:9px;clear:both;"><a title="Vytlačiť" href="http://147.175.106.2/kaivt/Predmety/VSA1?action=print" style="width:16px;float:left;height:16px;margin:0px 2px 0px 2px;"><img src="./Predmety VSA1 - Kaivt_files/printer.png"></a><a title="Posledné zmeny" href="http://147.175.106.2/kaivt/RecentChanges?action=rss_rc&ddiffs=1&unique=1" style="width:16px;float:left;height:16px;margin:0px 2px 0px 2px;"><img src="./Predmety VSA1 - Kaivt_files/rss.png"></a></div><link rel="alternate" title="RecentChanges" href="http://147.175.106.2/kaivt/RecentChanges?action=rss_rc&ddiffs=1&unique=1" type="application/rss+xml">
+<div class="sidepanel"><h1>Aktuálna stránka</h1>
+<ul id="navibar">
+<li class="current"><a href="./Predmety VSA1 - Kaivt_files/Predmety VSA1 - Kaivt.html">Predmety/VSA1</a></li>
+<li><a href="http://147.175.106.2/kaivt/UIM/SI">SI</a></li>													<li><a href="http://147.175.106.2/kaivt/UIM/BIS">BIS</a></li>													<li><a href="http://kmat.elf.stuba.sk/KMAT">MAT</a></li>													</ul>
+</div>
+<div class="sidepanel"><h1>Táto stránka</h1><ul class="editbar">
+<li><a href="http://147.175.106.2/kaivt/Predmety">Show Parent</a></li>
+<li><a href="http://147.175.106.2/kaivt/Predmety/VSA1?action=diff">Ukáž zmeny</a></li>
+<li><a href="http://147.175.106.2/kaivt/Predmety/VSA1?action=info">Info</a></li>
+<li><a href="http://147.175.106.2/kaivt/Predmety/VSA1?action=refresh">Vymaž cache</a></li>
+<li><a href="http://147.175.106.2/kaivt/Predmety/VSA1?action=AttachFile">Pripojiť subor</a></li>
+<li><a href="http://147.175.106.2/kaivt/Predmety/VSA1?action=LikePages">Podobné stránky</a></li>
+<li><a href="http://147.175.106.2/kaivt/Predmety/VSA1?action=LocalSiteMap">Mapa tejto stránky</a></li>
+</ul>
+</div>
+</div>
+
+<div id="page" lang="en" dir="ltr">
+<div dir="ltr" id="content" lang="en"><span class="anchor" id="top"></span>
+<span class="anchor" id="line-1"></span><p class="line867">
+</p><h1 id="head-806c408b9bb392ab97d29f72ecf4bb6ef3879a18">Vývoj softvérových aplikácií 1</h1>
+<span class="anchor" id="line-2"></span><span class="anchor" id="line-3"></span><ul><li><p class="line891"><a class="attachment" href="http://147.175.106.2/kaivt/Predmety/VSA1?action=AttachFile&do=get&target=pozvanka.pdf" title="attachment:pozvanka.pdf">Pozvánka na prednášky o agilnom programovaní</a> - 26.11. a 5.12. <span class="anchor" id="line-4"></span><span class="anchor" id="line-5"></span></p></li></ul><p class="line867">
+</p><h2 id="head-657dbdd5207df21e52bc2e7fe69a43280eaf50e5">Organizácia predmetu</h2>
+<span class="anchor" id="line-6"></span><span class="anchor" id="line-7"></span><p class="line867"><strong>Prednášky:</strong> <span class="anchor" id="line-8"></span><span class="anchor" id="line-9"></span></p><ul><li>Prednášky v pondelok o 11:00 v AB-150 <span class="anchor" id="line-10"></span></li><li>Prednášajúci: doc. Ing. Michal Šrámka, PhD. - sramka(na)stuba.sk, C-608, konzultačné hodiny v pondelky po predáškach a cvičeniach <span class="anchor" id="line-11"></span><span class="anchor" id="line-12"></span></li></ul><p class="line867"><strong>Cvičenia:</strong> <span class="anchor" id="line-13"></span><span class="anchor" id="line-14"></span></p><ul><li>Cvičiaci: Igor Kazlov, igor.kazlov (zavináč) stuba.sk, C-614, konzultačné hodiny - utorok od 10:30 - do 12:00 (prípadne inokedy - je potrebné dopredu dohodnúť) <span class="anchor" id="line-15"></span></li><li>Cvičenia: pondelok o 13:00, streda o 8:00 v B01 a streda o 10:00 v B01 <span class="anchor" id="line-16"></span><span class="anchor" id="line-17"></span></li><li class="gap">Cvičiaci: Ing. Ivan Oravec <span class="anchor" id="line-18"></span></li><li>Cvičenia: utorok o 8:00 v B01 <span class="anchor" id="line-19"></span><span class="anchor" id="line-20"></span></li></ul><p class="line867"><strong>Skúška:</strong> <span class="anchor" id="line-21"></span><span class="anchor" id="line-22"></span></p><ul><li><p class="line862">Predbežne sa riadny termín skúšky stanovil na 10.1.2014 v 4. behu v AB-300 a BC-300 <img alt=":o" height="15" src="./Predmety VSA1 - Kaivt_files/redface.png" title=":o" width="15"> <span class="anchor" id="line-23"></span><span class="anchor" id="line-24"></span></p></li></ul><p class="line867">
+</p><h2 id="head-89177e5362fc38e115bb0f6066606746d46abd4f">Hodnotenie</h2>
+<span class="anchor" id="line-25"></span><span class="anchor" id="line-26"></span><ul><li><p class="line891"><a href="http://147.175.106.2/kaivt/Predmety/VSA1/hodnotenie">Priebežné hodnotenie</a> <span class="anchor" id="line-27"></span><span class="anchor" id="line-28"></span></p></li></ul><p class="line867">
+</p><h2 id="head-30af7ae15f7e0a48ed696e712382c6dc711e14d9">Prednášky</h2>
+<span class="anchor" id="line-29"></span><span class="anchor" id="line-30"></span><p class="line862">(kapitoly sú z knihy Ian Sommerville: <a class="http" href="http://www.cs.st-andrews.ac.uk/~ifs/Books/SE8">Software Engineering</a>, 8th ed., Pearson, 2007) <span class="anchor" id="line-31"></span><span class="anchor" id="line-32"></span></p><p class="line874">1. Prednáška - 23.9. <span class="anchor" id="line-33"></span><span class="anchor" id="line-34"></span></p><ul><li><p class="line891"><a class="attachment" href="http://147.175.106.2/kaivt/Predmety/VSA1?action=AttachFile&do=get&target=1a-Intro.pdf" title="attachment:1a-Intro.pdf">Úvodné informácie o VSA1</a> <span class="anchor" id="line-35"></span></p></li><li><p class="line891"><a class="attachment" href="http://147.175.106.2/kaivt/Predmety/VSA1?action=AttachFile&do=get&target=1b-SWandSystems.pdf" title="attachment:1b-SWandSystems.pdf">Systemové a softvérové inžinierstvo</a>, kap. 1 <span class="anchor" id="line-36"></span></p></li><li><p class="line891"><a class="attachment" href="http://147.175.106.2/kaivt/Predmety/VSA1?action=AttachFile&do=get&target=1c-CriticalSystems.pdf" title="attachment:1c-CriticalSystems.pdf">Kritické systémy</a>, kap. 3 <span class="anchor" id="line-37"></span><span class="anchor" id="line-38"></span></p></li></ul><p class="line874">2. Prednáška - 30.9. <span class="anchor" id="line-39"></span><span class="anchor" id="line-40"></span></p><ul><li><p class="line891"><a class="attachment" href="http://147.175.106.2/kaivt/Predmety/VSA1?action=AttachFile&do=get&target=2a-SWprocess.pdf" title="attachment:2a-SWprocess.pdf">Softvérový proces - 1. časť</a>, kap. 4 <span class="anchor" id="line-41"></span></p></li><li><p class="line891"><a class="attachment" href="http://147.175.106.2/kaivt/Predmety/VSA1?action=AttachFile&do=get&target=2b-SWprocess.pdf" title="attachment:2b-SWprocess.pdf">Softvérový proces - 2. časť</a>, kap. 4 <span class="anchor" id="line-42"></span><span class="anchor" id="line-43"></span></p></li></ul><p class="line874">3. Prednáška - 7.10. <span class="anchor" id="line-44"></span><span class="anchor" id="line-45"></span></p><ul><li><p class="line891"><a class="attachment" href="http://147.175.106.2/kaivt/Predmety/VSA1?action=AttachFile&do=get&target=3a-ProjectMngt.pdf" title="attachment:3a-ProjectMngt.pdf">Projektový manažment</a>, kap. 5 <span class="anchor" id="line-46"></span></p></li><li><p class="line891"><a class="attachment" href="http://147.175.106.2/kaivt/Predmety/VSA1?action=AttachFile&do=get&target=3b-ChangeMngt.pdf" title="attachment:3b-ChangeMngt.pdf">Manažment zmien</a>, kap. 29 <span class="anchor" id="line-47"></span><span class="anchor" id="line-48"></span></p></li></ul><p class="line874">4. Prednáška - 14.10. <span class="anchor" id="line-49"></span><span class="anchor" id="line-50"></span></p><ul><li><p class="line891"><a class="attachment" href="http://147.175.106.2/kaivt/Predmety/VSA1?action=AttachFile&do=get&target=4a-Requirements.pdf" title="attachment:4a-Requirements.pdf">Špecifikácia softvéru - 1. časť</a>, kap. 6 <span class="anchor" id="line-51"></span></p></li><li><p class="line891"><a class="attachment" href="http://147.175.106.2/kaivt/Predmety/VSA1?action=AttachFile&do=get&target=4b-Requirements.pdf" title="attachment:4b-Requirements.pdf">Špecifikácia softvéru - 2. časť</a>, kap. 6 <span class="anchor" id="line-52"></span><span class="anchor" id="line-53"></span></p></li></ul><p class="line874">5. Prednáška - 21.10. <span class="anchor" id="line-54"></span><span class="anchor" id="line-55"></span></p><ul><li><p class="line891"><a class="attachment" href="http://147.175.106.2/kaivt/Predmety/VSA1?action=AttachFile&do=get&target=5a-Modelling.pdf" title="attachment:5a-Modelling.pdf">Modelovanie systémov - 1. časť</a>, kap. 8 <span class="anchor" id="line-56"></span></p></li><li><p class="line891"><a class="attachment" href="http://147.175.106.2/kaivt/Predmety/VSA1?action=AttachFile&do=get&target=5b-Modelling.pdf" title="attachment:5b-Modelling.pdf">Modelovanie systémov - 2. časť</a>, kap. 8 (okrajovo kap. 14) <span class="anchor" id="line-57"></span><span class="anchor" id="line-58"></span></p></li></ul><p class="line874">6. Prednáška - 28.10. <span class="anchor" id="line-59"></span><span class="anchor" id="line-60"></span></p><ul><li><p class="line891"><a class="attachment" href="http://147.175.106.2/kaivt/Predmety/VSA1?action=AttachFile&do=get&target=6a-ArchitecturalDesign.pdf" title="attachment:6a-ArchitecturalDesign.pdf">Návrh architektúry - 1. časť</a>, kap. 11 <span class="anchor" id="line-61"></span></p></li><li><p class="line891"><a class="attachment" href="http://147.175.106.2/kaivt/Predmety/VSA1?action=AttachFile&do=get&target=6b-ArchitecturalDesign.pdf" title="attachment:6b-ArchitecturalDesign.pdf">Návrh architektúry - 2. časť</a>, kap. 11 <span class="anchor" id="line-62"></span><span class="anchor" id="line-63"></span></p></li></ul><p class="line874">7. Prednáška - 4.11. <span class="anchor" id="line-64"></span><span class="anchor" id="line-65"></span></p><ul><li><p class="line891"><a class="attachment" href="http://147.175.106.2/kaivt/Predmety/VSA1?action=AttachFile&do=get&target=7a-OOD.pdf" title="attachment:7a-OOD.pdf">Objektovo orientovaný návrh - 1. časť</a>, kap. 14 <span class="anchor" id="line-66"></span></p></li><li><p class="line891"><a class="attachment" href="http://147.175.106.2/kaivt/Predmety/VSA1?action=AttachFile&do=get&target=7b-OOD.pdf" title="attachment:7b-OOD.pdf">Objektovo orientovaný návrh - 2. časť</a>, kap. 14 <span class="anchor" id="line-67"></span><span class="anchor" id="line-68"></span></p></li></ul><p class="line874">8. Prednáška - 11.11.  <span class="anchor" id="line-69"></span><span class="anchor" id="line-70"></span></p><ul><li>Test 1 <span class="anchor" id="line-71"></span><span class="anchor" id="line-72"></span></li></ul><p class="line874">9. Prednáška - 18.11. <span class="anchor" id="line-73"></span><span class="anchor" id="line-74"></span></p><ul><li><p class="line891"><a class="attachment" href="http://147.175.106.2/kaivt/Predmety/VSA1?action=AttachFile&do=get&target=8a-RapidSWDev.pdf" title="attachment:8a-RapidSWDev.pdf">Rapídne programovanie</a>, kap. 17 <span class="anchor" id="line-75"></span></p></li><li><p class="line891"><a class="attachment" href="http://147.175.106.2/kaivt/Predmety/VSA1?action=AttachFile&do=get&target=8b-ExtremeProgramming.pdf" title="attachment:8b-ExtremeProgramming.pdf">Extrémne programovanie</a>, kap. 17 <span class="anchor" id="line-76"></span><span class="anchor" id="line-77"></span></p></li></ul><p class="line874">10. Prednáška - 25.11. <span class="anchor" id="line-78"></span><span class="anchor" id="line-79"></span></p><ul><li><p class="line891"><a class="attachment" href="http://147.175.106.2/kaivt/Predmety/VSA1?action=AttachFile&do=get&target=9a-Reuse.pdf" title="attachment:9a-Reuse.pdf">Opätovné použitie softvéru</a>, kap. 18 <span class="anchor" id="line-80"></span></p></li><li><p class="line891"><a class="attachment" href="http://147.175.106.2/kaivt/Predmety/VSA1?action=AttachFile&do=get&target=9b-Reuse.pdf" title="attachment:9b-Reuse.pdf">Recyklácia softvéru</a>, kap. 18 <span class="anchor" id="line-81"></span><span class="anchor" id="line-82"></span></p></li></ul><p class="line874">11. Prednáška - 2.12. <span class="anchor" id="line-83"></span><span class="anchor" id="line-84"></span></p><ul><li><p class="line891"><a class="attachment" href="http://147.175.106.2/kaivt/Predmety/VSA1?action=AttachFile&do=get&target=10a-Testing.pdf" title="attachment:10a-Testing.pdf">Testovanie softvéru - 1. časť</a>, kap. 23 <span class="anchor" id="line-85"></span></p></li><li><p class="line891"><a class="attachment" href="http://147.175.106.2/kaivt/Predmety/VSA1?action=AttachFile&do=get&target=10b-Testing.pdf" title="attachment:10b-Testing.pdf">Testovanie softvéru - 2. časť</a>, kap. 23 <span class="anchor" id="line-86"></span><span class="anchor" id="line-87"></span></p></li></ul><p class="line874">12. (posledná) Prednáška - 9.12. <span class="anchor" id="line-88"></span><span class="anchor" id="line-89"></span></p><ul><li><p class="line891"><a class="attachment" href="http://147.175.106.2/kaivt/Predmety/VSA1?action=AttachFile&do=get&target=11a-SecurityEng.pdf" title="attachment:11a-SecurityEng.pdf">Security Engineering</a>, kap. 30 <span class="anchor" id="line-90"></span></p></li><li><p class="line891"><a class="http" href="http://www.microsoft.com/security/sdl/default.aspx">Security Development Lifecycle (SDL)</a> - simplified implementation <span class="anchor" id="line-91"></span><span class="anchor" id="line-92"></span></p></li></ul><p class="line867">
+</p><h2 id="head-0cffd28c3a2d19a75d37c99bba0e99057d453df9">Cvičenia</h2>
+<span class="anchor" id="line-93"></span><span class="anchor" id="line-94"></span><p class="line874">1. Cvičenie - Úvod + UML <span class="anchor" id="line-95"></span></p><ul><li><p class="line891"><a class="http" href="http://www.uml-diagrams.org/">http://www.uml-diagrams.org/</a> <span class="anchor" id="line-96"></span></p></li><li><p class="line862">Online UML kreslítko: <a class="http" href="http://creately.com/">http://creately.com/</a>, alebo <a class="https" href="https://cacoo.com/">https://cacoo.com/</a> a tiež <a class="http" href="http://yuml.me/">http://yuml.me/</a> <span class="anchor" id="line-97"></span><span class="anchor" id="line-98"></span></p></li></ul><p class="line874">2. Cvičenie - Use Case Diagramy <span class="anchor" id="line-99"></span></p><ul><li><p class="line891"><a class="http" href="http://www.uml-diagrams.org/use-case-diagrams.html">http://www.uml-diagrams.org/use-case-diagrams.html</a> <span class="anchor" id="line-100"></span></p></li><li><p class="line862">Z funkcionality zadanej formou textu vytvorte Use Case (UC) diagram: <strong>Textový editor</strong> Používateľ môže vytvoriť nový dokument, otvoriť dokument. Pri otváraní dokumentu môže importovať z iného formátu. Ďalej môže tlačiť dokument, editovať ho, teda písať text, vkladať obrázky, kontrolovať pravopis. Používateľ vie dokument zavrieť, vie ho uložiť a vie ho exportovať (uložiť) aj do HTML formátu. Administrátor vie nastavovať práva používateľom. <span class="anchor" id="line-101"></span></p></li><li>Namodelujte UML Use Case diagram pre webovú aplikáciu rezervácie vstupeniek na divadelné predstavenia. Návštevník môže: prezerať dostupné predstavenia (repertoár), vyhľadávať predstavenia, pridávať komentáre ku predstaveniam, rezervovať si lístky/vstupenky na predstavenia, (môže a nemusí) zaplatiť za rezervované vstupenky online, registrovať sa, vyberať si miesto na sedenie. Pokladníčka môže: prezerať dostupné predstavenia (repertoár), vyhľadávať predstavenia,  rezervovať vstupenky pre návštevníkov, rušiť existujúce rezervácie, prezerať (prehliadať) existujúce rezervácie, predávať vstupenky, predávať rezervované vstupenky, vyberať miesto na sedenie. Tajomníčka môže: pridávať predstavenia, odoberať predstavenia, prezerať dostupné predstavenia (repertoár), upravovať informácie o predstavení. <span class="anchor" id="line-102"></span><span class="anchor" id="line-103"></span></li></ul><p class="line874">3. Cvičenie - State Machine Diagramy <span class="anchor" id="line-104"></span></p><ul><li><p class="line891"><a class="http" href="http://www.uml-diagrams.org/state-machine-diagrams.html">http://www.uml-diagrams.org/state-machine-diagrams.html</a> <span class="anchor" id="line-105"></span></p></li><li>Úlohy: Vytvorte model vo forme stavového diagramu pre: <span class="anchor" id="line-106"></span><ul><li>dopravný semafor <span class="anchor" id="line-107"></span></li><li>výťah s dvoma poschodiami (každý prechod/trigger pomenujte) <span class="anchor" id="line-108"></span><span class="anchor" id="line-109"></span></li></ul></li></ul><p class="line874">4. Cvičenie - Activity Diagramy <span class="anchor" id="line-110"></span></p><ul><li><p class="line891"><a class="http" href="http://www.uml-diagrams.org/activity-diagrams.html">http://www.uml-diagrams.org/activity-diagrams.html</a> <span class="anchor" id="line-111"></span></p></li><li>Úloha: Pomocou activity diagramu vytvorte model pre proces získania vodičského preukazu, oprávnenia (autoškola, skúšky, ...) <span class="anchor" id="line-112"></span><span class="anchor" id="line-113"></span></li></ul><p class="line874">5. Cvičenie - Sequence Diagramy <span class="anchor" id="line-114"></span></p><ul><li><p class="line891"><a class="http" href="http://www.uml-diagrams.org/sequence-diagrams.html">http://www.uml-diagrams.org/sequence-diagrams.html</a> <span class="anchor" id="line-115"></span></p></li><li>Úloha: Namodelujte sekvenčný diagram pre výber jedla študentom v jedálni. Na každý deň si môže vybrať jedno z troch jedál. Študent si vyberá jedno až päť jedál (max. na 5 dní dopredu). Pri objednávaní jedla sa vytvorí objekt (objednávka jedla). V diagrame sa vyskytujú minimálne títo participanti (lifeline): študent, jedálenský systém. <span class="anchor" id="line-116"></span><span class="anchor" id="line-117"></span></li></ul><p class="line874">6. Cvičenie - Communication Diagramy <span class="anchor" id="line-118"></span></p><ul><li><p class="line891"><a class="http" href="http://www.uml-diagrams.org/communication-diagrams.html">http://www.uml-diagrams.org/communication-diagrams.html</a> <span class="anchor" id="line-119"></span><span class="anchor" id="line-120"></span></p></li></ul><p class="line874">7. Cvičenie - Class Diagramy <span class="anchor" id="line-121"></span></p><ul><li><p class="line891"><a class="http" href="http://www.uml-diagrams.org/class-diagrams-overview.html">http://www.uml-diagrams.org/class-diagrams-overview.html</a> <span class="anchor" id="line-122"></span><span class="anchor" id="line-123"></span></p></li></ul><p class="line874">8. Cvičenie - Diagramy z písomky + príklady <span class="anchor" id="line-124"></span></p><ul><li>Navrhnite aktivity diagram, ktorý bude umožňovať nasledovné postupnosti akcií „A“, „B“, „C“, „D“, „E“, „F“: <span class="anchor" id="line-125"></span><ol type="1"><li>A B C D E <span class="anchor" id="line-126"></span></li><li>A C B D E <span class="anchor" id="line-127"></span></li><li>A B C D F <span class="anchor" id="line-128"></span></li><li>A C B D F <span class="anchor" id="line-129"></span></li><li>A <span class="anchor" id="line-130"></span></li></ol></li><li>Pred každou postupnosťou (na začiatku) je nepísaný activity initial node a na konci každej je nepísaný activity final node. Diagram navrhnite tak, aby v ňom nebolo možné realizovať/spúšťať žiadne iné postupnosti akcií. <span class="anchor" id="line-131"></span><span class="anchor" id="line-132"></span></li><li class="gap">Nahrávanie súboru na cloud: Používateľ komunikuje s prezentačno-aplikačnou vrstvou systému. Najprv sa prihlási a potom sa mu zobrazí obsah svojho adresára. Používateľ nahrá (pošle) súbor, pričom tento súbor je uložený do databázovej vrstvy (úložisko). Ak je súbor pri nahrávaní nastavený ako zdieľaný, potom sa pošle email druhému používateľovi o novom súbore (z pr.-aplikačnej vrstvy). Po nahraní súboru príde (pôvodnému) používateľovi potvrdenie o vykonaní operácie. Následne si používateľ súbor prezrie-stiahne, aby si ho skontroloval. Namodelujte tento scenár ako sekvenčný diagram. <span class="anchor" id="line-133"></span><span class="anchor" id="line-134"></span></li></ul><p class="line874">9. Cvičenie - Prezentácia zadania 1 <span class="anchor" id="line-135"></span><span class="anchor" id="line-136"></span></p><p class="line874">10. Cvičenie - Class diagram príklad: <span class="anchor" id="line-137"></span></p><ul><li>Navrhnite diagram tried školský testovací systém. Systém bude evidovať osoby, ku ktorým patria atribúty ako meno, priezvisko, prihlasovacie meno, heslo, email. Ďalej tam bude vystupovať študent, ktorý bude mať navyše aj ročník a stav či je absolvent alebo nie. Nachádza sa tu tiež zoznam predmetov, pričom každý predmet má svoj krátky názov, dlhý názov a sylaby. Systém bude uchovávať príklady, čo sú konkrétne príklady/úlohy/zadania/testy a tieto príklady majú atribúty meno, krátky popis, obsah príkladu, rozšírený popis. A nakoniec výsledky jednotlivých príkladov, ktoré obsahujú atribúty ako čas s dátumom (datetime) a percentuálnu, číselnú hodnotu výsledku (či spravil alebo nie). <span class="anchor" id="line-138"></span></li><li>Uvažujte s nasledovnými asociáciami: <span class="anchor" id="line-139"></span><ul><li>každý výsledok prislúcha ku jednému študentovi <span class="anchor" id="line-140"></span></li><li>každý výsledok je z nejakého príkladu <span class="anchor" id="line-141"></span></li><li>každý príklad je vrámci jedného predmetu <span class="anchor" id="line-142"></span></li><li>každý predmet učí nejaká osoba, alebo viacej osôb <span class="anchor" id="line-143"></span></li><li>každý študent môže mať zapísané nejaké predmety <span class="anchor" id="line-144"></span><span class="anchor" id="line-145"></span></li></ul></li></ul><p class="line874">11. Cvičenie - Git + projektové plánovanie <span class="anchor" id="line-146"></span></p><ul><li><p class="line862">SW na projektové plánovanie: MS Project, <a class="nonexistent" href="http://147.175.106.2/kaivt/OpenProj">OpenProj</a>, Redmine, Gantt Project  <span class="anchor" id="line-147"></span></p><ul><li><p class="line891"><a class="http" href="http://www.smashingapps.com/2010/02/15/10-free-tools-for-effective-project-management.html">10 Free Tools For Effective Project Management</a> <span class="anchor" id="line-148"></span></p></li></ul></li><li>Konfiguračný manažment a manažment zmien: Github, Bitbucket, Code Google; (Git, SVN, Mercurial, CVS)  <span class="anchor" id="line-149"></span><ul><li><p class="line891"><a class="http" href="http://sixrevisions.com/resources/git-tutorials-beginners/">Top 10 Git Tutorials for Beginners</a> (určite nájdete aj niečo v češtine/slovenčine) <span class="anchor" id="line-150"></span><span class="anchor" id="line-151"></span></p></li></ul></li></ul><p class="line867">
+</p><h2 id="head-94f570a563a57fe7ae6439790af617ce35236837">Semestrálne zadania</h2>
+<span class="anchor" id="line-152"></span><span class="anchor" id="line-153"></span><ul><li><p class="line891"><a href="http://147.175.106.2/kaivt/Predmety/VSA1/temy">Témy zadania a rozdelenie študentov na témy</a> <span class="anchor" id="line-154"></span></p></li><li><p class="line891"><a class="attachment" href="http://147.175.106.2/kaivt/Predmety/VSA1?action=AttachFile&do=get&target=zadanie1.pdf" title="attachment:zadanie1.pdf">Požiadavky na vypracovanie zadania č.1</a> <span class="anchor" id="line-155"></span></p></li><li><p class="line891"><a class="attachment" href="http://147.175.106.2/kaivt/Predmety/VSA1?action=AttachFile&do=get&target=zadanie2.pdf" title="attachment:zadanie2.pdf">Požiadavky na vypracovanie zadania č.2</a> <img alt=":o" height="15" src="./Predmety VSA1 - Kaivt_files/redface.png" title=":o" width="15"> <span class="anchor" id="line-156"></span><span class="anchor" id="line-157"></span><span class="anchor" id="line-158"></span></p></li></ul><p class="line867">
+</p><h2 id="head-39b34d313c066e9ebe84ef4cc76c444f248302ba">Literatúra</h2>
+<span class="anchor" id="line-159"></span><span class="anchor" id="line-160"></span><ul><li><p class="line862">Ian Sommerville: <a class="http" href="http://www.cs.st-andrews.ac.uk/~ifs/Books/SE8">Software Engineering</a>, Pearson, 7th ed. 2004; 8th ed. 2007; 9th ed. 2010. <span class="anchor" id="line-161"></span></p></li><li>Douglas Bell: Software Engineering for Students – A Programming Approach, 4th ed, Addison-Wesley, 2005. <span class="anchor" id="line-162"></span></li><li>Pankaj Jalote: A Concise Introduction to Software Engineering, Springer, 2008. <span class="anchor" id="line-163"></span></li><li>Mária Bieliková, Softvérové inžinierstvo - Princípy a manažment (zrejme majú aj v našej knižnici). <span class="anchor" id="line-164"></span></li><li>Russev, S., Kniežová, J., Russev, R.: Softvérové inžinierstvo, Vydavateľstvo Ekonóm, Bratislava, 2006. <span class="anchor" id="line-165"></span></li></ul><span class="anchor" id="bottom"></span></div><div id="pagebottom"></div>
+<p id="pageinfo" class="info" lang="en" dir="ltr">Kaivt: Predmety/VSA1  (last edited 2013-12-08 21:46:42 by <span title="MichalSramka @ chello089173171189.chello.sk[89.173.171.189]"><a href="http://147.175.106.2/kaivt/MichalSramka" title="MichalSramka @ chello089173171189.chello.sk[89.173.171.189]">MichalSramka</a></span>)</p>
+
+<div id="pagebottom"></div>
+</div>
+
+
+
+</div>
+
+
+</body></html>
